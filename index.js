@@ -1,5 +1,5 @@
 import React from "react";
-import FormContext from '@mxjs/a-form/FormContext';
+import {FormContext} from '@mxjs/a-form';
 import {DatePicker} from 'antd';
 
 export default class DateRangePicker extends React.Component {
