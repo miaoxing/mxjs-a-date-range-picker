@@ -9,6 +9,15 @@ export default class DateRangePicker extends React.Component {
     format: 'YYYY-MM-DD',
   }
 
+  constructor(props) {
+    // Update format for time picker
+    if (props.showTime && !props.format) {
+      props.format = 'YYYY-MM-DD HH:mm:ss';
+    }
+
+    super(props);
+  }
+
   onChange = (value) => {
     const stringValue = value ? [
       value[0] ? value[0].format(this.props.format) : null,
