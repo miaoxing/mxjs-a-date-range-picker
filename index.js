@@ -1,38 +1,49 @@
 import React from "react";
 import {FormContext} from '@mxjs/a-form';
 import {DatePicker} from 'antd';
+import moment from 'moment';
 
 export default class DateRangePicker extends React.Component {
   static contextType = FormContext;
 
-  static defaultProps = {
-    format: 'YYYY-MM-DD',
+  constructor(props, context) {
+    super(props, context);
+
+    context.setInputConverter(this.inputConverter);
+    context.setOutputConverter(this.outputConverter);
   }
 
-  constructor(props) {
-    // Update format for time picker
-    if (props.showTime && !props.format) {
-      props.format = 'YYYY-MM-DD HH:mm:ss';
+  inputConverter = (values) => {
+    // TODO 增加方法支持 NamePath
+    values[this.props.id] = [
+      values[this.props.names[0]] ? moment(values[this.props.names[0]]) : null,
+      values[this.props.names[1]] ? moment(values[this.props.names[1]]) : null,
+    ];
+    return values;
+  };
+
+  outputConverter = (values) => {
+    const format = this.getFormat();
+    const value = values[this.props.id];
+    values[this.props.names[0]] = value[0] ? value[0].format(format) : '';
+    values[this.props.names[1]] = value[1] ? value[1].format(format) : '';
+    delete values[this.props.id];
+    return values;
+  };
+
+  getFormat() {
+    if (this.props.format) {
+      return this.props.format;
     }
-
-    super(props);
-  }
-
-  onChange = (value) => {
-    const stringValue = value ? [
-      value[0] ? value[0].format(this.props.format) : null,
-      value[1] ? value[1].format(this.props.format) : null,
-    ] : value;
-    this.context.setFieldsValue({[this.props.id.substr(1)]: stringValue});
-    this.props.onChange(value);
+    return this.props.showTime ? 'YYYY-MM-DD HH:mm:ss' : 'YYYY-MM-DD';
   }
 
   render() {
     return (
       <DatePicker.RangePicker
         allowEmpty={[true, true]}
+        format={this.getFormat()}
         {...this.props}
-        onChange={this.onChange}
       />
     )
   }

@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`date-range-picker custom format 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "method": "get",
+        "url": "",
+      },
+    ],
+    Array [
+      Object {
+        "data": Object {
+          "endDate": "",
+          "startDate": "2020/01/01",
+        },
+        "loading": true,
+        "method": "POST",
+        "url": "",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
+
+exports[`date-range-picker date 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "method": "get",
+        "url": "",
+      },
+    ],
+    Array [
+      Object {
+        "data": Object {
+          "endDate": "2020-02-02",
+          "startDate": "2020-01-01",
+        },
+        "loading": true,
+        "method": "POST",
+        "url": "",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
+
+exports[`date-range-picker empty value 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "method": "get",
+        "url": "",
+      },
+    ],
+    Array [
+      Object {
+        "data": Object {
+          "endDate": "",
+          "startDate": "",
+        },
+        "loading": true,
+        "method": "POST",
+        "url": "",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
+
+exports[`date-range-picker only start date 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "method": "get",
+        "url": "",
+      },
+    ],
+    Array [
+      Object {
+        "data": Object {
+          "endDate": "",
+          "startDate": "2020-01-01",
+        },
+        "loading": true,
+        "method": "POST",
+        "url": "",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
+
+exports[`date-range-picker time 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "method": "get",
+        "url": "",
+      },
+    ],
+    Array [
+      Object {
+        "data": Object {
+          "endDate": "2020-02-02 02:02:02",
+          "startDate": "2020-01-01 01:01:01",
+        },
+        "loading": true,
+        "method": "POST",
+        "url": "",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
