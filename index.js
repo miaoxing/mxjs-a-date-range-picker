@@ -25,8 +25,8 @@ export default class DateRangePicker extends React.Component {
   outputConverter = (values) => {
     const format = this.getFormat();
     const value = values[this.props.id];
-    values[this.props.names[0]] = value[0] ? value[0].format(format) : '';
-    values[this.props.names[1]] = value[1] ? value[1].format(format) : '';
+    values[this.props.names[0]] = (value && value[0]) ? value[0].format(format) : '';
+    values[this.props.names[1]] = (value && value[1]) ? value[1].format(format) : '';
     delete values[this.props.id];
     return values;
   };
