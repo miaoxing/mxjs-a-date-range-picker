@@ -1,3 +1,14 @@
+## [0.2.6](https://github.com/miaoxing/mxjs-a-date-range-picker/compare/v0.2.5...v0.2.6) (2021-03-22)
+
+
+
+
+
+### Dependencies
+
+* **babel-preset-miaoxing:** upgrade from `0.1.5` to `0.2.0`
+* **@miaoxing/dev:** upgrade from `6.3.3` to `6.3.4`
+
 ## [0.2.5](https://github.com/miaoxing/mxjs-a-date-range-picker/compare/v0.2.4...v0.2.5) (2021-03-12)
 
 
