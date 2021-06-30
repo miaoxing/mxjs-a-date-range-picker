@@ -12,6 +12,7 @@ exports[`date-range-picker custom format 1`] = `
     Array [
       Object {
         "data": Object {
+          "_date": null,
           "endDate": "",
           "startDate": "2020/01/01",
         },
@@ -52,6 +53,7 @@ exports[`date-range-picker date 1`] = `
     Array [
       Object {
         "data": Object {
+          "_date": null,
           "endDate": "2020-02-02",
           "startDate": "2020-01-01",
         },
@@ -92,6 +94,7 @@ exports[`date-range-picker empty value 1`] = `
     Array [
       Object {
         "data": Object {
+          "_date": null,
           "endDate": "",
           "startDate": "",
         },
@@ -132,6 +135,7 @@ exports[`date-range-picker only start date 1`] = `
     Array [
       Object {
         "data": Object {
+          "_date": null,
           "endDate": "",
           "startDate": "2020-01-01",
         },
@@ -172,6 +176,7 @@ exports[`date-range-picker time 1`] = `
     Array [
       Object {
         "data": Object {
+          "_date": null,
           "endDate": "2020-02-02 02:02:02",
           "startDate": "2020-01-01 01:01:01",
         },
