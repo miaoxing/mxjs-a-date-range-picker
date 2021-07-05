@@ -1,10 +1,10 @@
-import React from "react";
+import { Component } from "react";
 import {FormContext} from '@mxjs/a-form';
 import {DatePicker} from 'antd';
 import moment from 'moment';
 import {setValue, getValue} from 'rc-field-form/lib/utils/valueUtil';
 
-export default class DateRangePicker extends React.Component {
+export default class DateRangePicker extends Component {
   static contextType = FormContext;
 
   constructor(props, context) {
