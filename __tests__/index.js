@@ -2,7 +2,7 @@ import {render} from '@testing-library/react';
 import {Form, FormItem} from '@mxjs/a-form';
 import {MemoryRouter} from 'react-router';
 import {createPromise} from '@mxjs/test';
-import $ from 'miaoxing';
+import $, {Ret} from 'miaoxing';
 import DateRangePicker from '..';
 
 describe('date-range-picker', () => {
@@ -10,20 +10,16 @@ describe('date-range-picker', () => {
     const promise = createPromise();
     const promise2 = createPromise();
     $.http = jest.fn().mockImplementationOnce(() => promise.resolve({
-      ret: {
-        code: 1,
-        message: 'success',
+      ret: Ret.suc({
         data: {
           startDate: '2020-01-01',
           endDate: '2020-02-02',
         }
-      }
+      })
     })).mockImplementationOnce(() => promise2.resolve({
-      ret: {
-        code: 1,
-        message: 'success',
+      ret: Ret.suc({
         data: {}
-      }
+      })
     }));
 
     const {container, findByDisplayValue} = render(<MemoryRouter>
@@ -48,14 +44,12 @@ describe('date-range-picker', () => {
     const promise = createPromise();
     const promise2 = createPromise();
     $.http = jest.fn().mockImplementationOnce(() => promise.resolve({
-      ret: {
-        code: 1,
-        message: 'success',
+      ret: Ret.suc({
         data: {
           startDate: '2020-01-01 01:01:01',
           endDate: '2020-02-02 02:02:02',
         }
-      }
+      })
     })).mockImplementationOnce(() => promise2.resolve({
       code: 1,
       message: 'success',
@@ -84,20 +78,16 @@ describe('date-range-picker', () => {
     const promise = createPromise();
     const promise2 = createPromise();
     $.http = jest.fn().mockImplementationOnce(() => promise.resolve({
-      ret: {
-        code: 1,
-        message: 'success',
+      ret: Ret.suc({
         data: {
           startDate: '2020-01-01',
           endDate: '',
         }
-      }
+      })
     })).mockImplementationOnce(() => promise2.resolve({
-      ret: {
-        code: 1,
-        message: 'success',
+      ret: Ret.suc({
         data: {}
-      }
+      })
     }));
 
     const {container, findByDisplayValue} = render(<MemoryRouter>
@@ -122,17 +112,13 @@ describe('date-range-picker', () => {
     const promise = createPromise();
     const promise2 = createPromise();
     $.http = jest.fn().mockImplementationOnce(() => promise.resolve({
-      ret: {
-        code: 1,
-        message: 'success',
+      ret: Ret.suc({
         data: {}
-      }
+      })
     })).mockImplementationOnce(() => promise2.resolve({
-      ret: {
-        code: 1,
-        message: 'success',
+      ret: Ret.suc({
         data: {}
-      }
+      })
     }));
 
     const {container} = render(<MemoryRouter>
@@ -155,20 +141,16 @@ describe('date-range-picker', () => {
     const promise = createPromise();
     const promise2 = createPromise();
     $.http = jest.fn().mockImplementationOnce(() => promise.resolve({
-      ret: {
-        code: 1,
-        message: 'success',
+      ret: Ret.suc({
         data: {
           startDate: '2020-01-01',
           endDate: '',
         }
-      }
+      })
     })).mockImplementation(() => promise2.resolve({
-      ret: {
-        code: 1,
-        message: 'success',
+      ret: Ret.suc({
         data: {}
-      }
+      })
     }));
 
     const {container, findByDisplayValue} = render(<MemoryRouter>
