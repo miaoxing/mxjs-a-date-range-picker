@@ -1,11 +1,19 @@
-import { Component } from "react";
+import { Component } from 'react';
 import {FormContext} from '@mxjs/a-form';
 import {DatePicker} from 'antd';
 import moment from 'moment';
+import PropTypes from 'prop-types';
 import {setValue, getValue} from 'rc-field-form/lib/utils/valueUtil';
 
 export default class DateRangePicker extends Component {
   static contextType = FormContext;
+
+  static propTypes = {
+    id: PropTypes.string,
+    names: PropTypes.array,
+    format: PropTypes.string,
+    showTime: PropTypes.bool,
+  };
 
   constructor(props, context) {
     super(props, context);
@@ -55,6 +63,6 @@ export default class DateRangePicker extends Component {
         format={this.getFormat()}
         {...this.props}
       />
-    )
+    );
   }
 }

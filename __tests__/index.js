@@ -14,12 +14,12 @@ describe('date-range-picker', () => {
         data: {
           startDate: '2020-01-01',
           endDate: '2020-02-02',
-        }
-      })
+        },
+      }),
     })).mockImplementationOnce(() => promise2.resolve({
       ret: Ret.suc({
-        data: {}
-      })
+        data: {},
+      }),
     }));
 
     const {container, findByDisplayValue} = render(<MemoryRouter>
@@ -48,12 +48,12 @@ describe('date-range-picker', () => {
         data: {
           startDate: '2020-01-01 01:01:01',
           endDate: '2020-02-02 02:02:02',
-        }
-      })
+        },
+      }),
     })).mockImplementationOnce(() => promise2.resolve({
       code: 1,
       message: 'success',
-      data: {}
+      data: {},
     }));
 
     const {container, findByDisplayValue} = render(<MemoryRouter>
@@ -82,12 +82,12 @@ describe('date-range-picker', () => {
         data: {
           startDate: '2020-01-01',
           endDate: '',
-        }
-      })
+        },
+      }),
     })).mockImplementationOnce(() => promise2.resolve({
       ret: Ret.suc({
-        data: {}
-      })
+        data: {},
+      }),
     }));
 
     const {container, findByDisplayValue} = render(<MemoryRouter>
@@ -113,12 +113,12 @@ describe('date-range-picker', () => {
     const promise2 = createPromise();
     $.http = jest.fn().mockImplementationOnce(() => promise.resolve({
       ret: Ret.suc({
-        data: {}
-      })
+        data: {},
+      }),
     })).mockImplementationOnce(() => promise2.resolve({
       ret: Ret.suc({
-        data: {}
-      })
+        data: {},
+      }),
     }));
 
     const {container} = render(<MemoryRouter>
@@ -145,12 +145,12 @@ describe('date-range-picker', () => {
         data: {
           startDate: '2020-01-01',
           endDate: '',
-        }
-      })
+        },
+      }),
     })).mockImplementation(() => promise2.resolve({
       ret: Ret.suc({
-        data: {}
-      })
+        data: {},
+      }),
     }));
 
     const {container, findByDisplayValue} = render(<MemoryRouter>
