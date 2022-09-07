@@ -51,9 +51,7 @@ describe('date-range-picker', () => {
         },
       }),
     })).mockImplementationOnce(() => promise2.resolve({
-      code: 1,
-      message: 'success',
-      data: {},
+      ret: Ret.suc(),
     }));
 
     const {container, findByDisplayValue} = render(<MemoryRouter>
