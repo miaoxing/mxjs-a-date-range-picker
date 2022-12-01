@@ -1,3 +1,20 @@
+# [1.1.0](https://github.com/miaoxing/mxjs-a-date-range-picker/compare/v1.0.5...v1.1.0) (2022-12-01)
+
+
+### Features
+
+* **a-date-range-picker:** 支持时间范围选择 ([71ca865](https://github.com/miaoxing/mxjs-a-date-range-picker/commit/71ca8650e291cef7db6e2373b1ce28543f6de3a9))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-form:** upgrade from `1.1.3` to `1.1.4`
+* **miaoxing:** upgrade from `0.4.4` to `0.4.5`
+* **@mxjs/test:** upgrade from `1.0.1` to `1.0.2`
+
 ## [1.0.5](https://github.com/miaoxing/mxjs-a-date-range-picker/compare/v1.0.4...v1.0.5) (2022-11-02)
 
 
