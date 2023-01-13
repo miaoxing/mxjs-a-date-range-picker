@@ -13,11 +13,7 @@ export default class DateRangePicker extends Component {
     names: PropTypes.array,
     format: PropTypes.string,
     showTime: PropTypes.bool,
-    mode: PropTypes.oneOf(['date', 'time']),
-  };
-
-  static defaultProps = {
-    mode: 'date',
+    mode: PropTypes.string,
   };
 
   constructor(props, context) {
