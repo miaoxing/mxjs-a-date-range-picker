@@ -28,6 +28,12 @@ export default class DateRangePicker extends Component {
     const format = this.getFormat();
     const start = getValue(values, names[0]);
     const end = getValue(values, names[1]);
+
+    // Keep value to empty to trigger "required" validator
+    if (!start && !end) {
+      return values;
+    }
+
     return setValue(values, [this.props.id], [
       start ? moment(start, format) : null,
       end ? moment(end, format) : null,
