@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@mxjs/a-form": "^1.1.5",
-    "antd": "~4.17.4",
+    "antd": "~4.24.7",
     "miaoxing": "^0.4.6",
     "moment": "^2.27.0"
   },
