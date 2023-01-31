@@ -1,3 +1,24 @@
+# [1.2.0](https://github.com/miaoxing/mxjs-a-date-range-picker/compare/v1.1.1...v1.2.0) (2023-01-31)
+
+
+### Bug Fixes
+
+* **a-date-range-picker:** 解决 `required` 规则对日期范围选择器无效 ([dc24eef](https://github.com/miaoxing/mxjs-a-date-range-picker/commit/dc24eef4fb123eae959ddb317ffe40a97b6ea8fc))
+* **a-date-range-picker:** 解决无法选择日期的问题，默认 `mode` 应为空 ([4f3e5b2](https://github.com/miaoxing/mxjs-a-date-range-picker/commit/4f3e5b257c8991752f31dd63a7950cb6d9786113))
+
+
+### Features
+
+* 更新 `antd` 到 `~4.24.7` ([ca96cab](https://github.com/miaoxing/mxjs-a-date-range-picker/commit/ca96cab52f5ba1f16b36acd3bbd139fb9aee960b))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-form:** upgrade from `1.1.5` to `1.2.0`
+
 ## [1.1.1](https://github.com/miaoxing/mxjs-a-date-range-picker/compare/v1.1.0...v1.1.1) (2023-01-01)
 
 
