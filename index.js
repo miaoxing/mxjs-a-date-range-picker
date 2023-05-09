@@ -1,7 +1,7 @@
 import {Component} from 'react';
 import {FormContext} from '@mxjs/a-form';
 import {DatePicker, TimePicker} from 'antd';
-import moment from 'moment';
+import dayjs from 'dayjs';
 import PropTypes from 'prop-types';
 import {setValue, getValue} from 'rc-field-form/lib/utils/valueUtil';
 
@@ -35,8 +35,8 @@ export default class DateRangePicker extends Component {
     }
 
     return setValue(values, [this.props.id], [
-      start ? moment(start, format) : null,
-      end ? moment(end, format) : null,
+      start ? dayjs(start, format) : null,
+      end ? dayjs(end, format) : null,
     ]);
   };
 
