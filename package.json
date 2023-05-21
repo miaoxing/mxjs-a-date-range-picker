@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "twinh",
   "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
