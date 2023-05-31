@@ -1,3 +1,28 @@
+# [2.0.0](https://github.com/miaoxing/mxjs-a-date-range-picker/compare/v1.2.3...v2.0.0) (2023-05-31)
+
+
+### Features
+
+* **a-date-range-picker:** 指定 node >= 14 ([15f28d8](https://github.com/miaoxing/mxjs-a-date-range-picker/commit/15f28d849f6187979f8af3b7e603dd3b1a662db7))
+* **antd5:** 更新 `antd` 到 `5.1.6` ([da81d45](https://github.com/miaoxing/mxjs-a-date-range-picker/commit/da81d457f36aa75be0a66331d1c0ad8ec3450973))
+
+
+### BREAKING CHANGES
+
+* **a-date-range-picker:** 指定 node >= 14
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-form:** upgrade from `1.3.0` to `1.4.0`
+* **miaoxing:** upgrade from `0.4.6` to `0.4.7`
+* **babel-preset-miaoxing:** upgrade from `0.6.1` to `0.7.0`
+* **@miaoxing/dev:** upgrade from `8.2.0` to `8.2.1`
+* **@mxjs/test:** upgrade from `1.0.3` to `1.0.4`
+
 ## [1.2.3](https://github.com/miaoxing/mxjs-a-date-range-picker/compare/v1.2.2...v1.2.3) (2023-04-30)
 
 
