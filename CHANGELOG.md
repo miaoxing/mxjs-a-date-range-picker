@@ -1,3 +1,13 @@
+## [2.0.5](https://github.com/miaoxing/mxjs-a-date-range-picker/compare/v2.0.4...v2.0.5) (2023-11-02)
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-form:** upgrade from `1.7.0` to `2.0.0`
+
 ## [2.0.4](https://github.com/miaoxing/mxjs-a-date-range-picker/compare/v2.0.3...v2.0.4) (2023-09-30)
 
 
