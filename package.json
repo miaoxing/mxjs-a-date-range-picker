@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/a-date-range-picker",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "main": "index.js",
   "author": "twinh",
   "license": "MIT",
@@ -15,17 +15,17 @@
     "preset": "jest-preset-miaoxing"
   },
   "dependencies": {
-    "@mxjs/a-form": "^2.0.0",
+    "@mxjs/a-form": "^2.0.1",
     "antd": "~5.1.6",
-    "miaoxing": "^0.4.9",
+    "miaoxing": "^0.4.10",
     "dayjs": "^1.11.7"
   },
   "devDependencies": {
     "@testing-library/react": "^11.2.6",
     "babel-jest": "^25.4.0",
     "babel-preset-miaoxing": "^0.7.0",
-    "@miaoxing/dev": "^8.2.3",
-    "@mxjs/test": "^1.0.7",
+    "@miaoxing/dev": "^8.2.4",
+    "@mxjs/test": "^1.0.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router": "^5.2.0"
