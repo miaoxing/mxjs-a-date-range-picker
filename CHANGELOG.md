@@ -1,3 +1,18 @@
+# [2.1.0](https://github.com/miaoxing/mxjs-a-date-range-picker/compare/v2.0.8...v2.1.0) (2024-01-31)
+
+
+### Features
+
+* 更新 `react` 支持 18 ([a748db4](https://github.com/miaoxing/mxjs-a-date-range-picker/commit/a748db4dafc69b35fcca2e1caa0878a643641354))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-form:** upgrade from `2.0.3` to `2.1.0`
+
 ## [2.0.8](https://github.com/miaoxing/mxjs-a-date-range-picker/compare/v2.0.7...v2.0.8) (2024-01-08)
 
 
