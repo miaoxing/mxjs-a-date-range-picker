@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@mxjs/a-form": "^2.1.0",
-    "antd": "~5.1.6",
+    "antd": "~5.13",
     "miaoxing": "^0.4.12",
     "dayjs": "^1.11.7"
   },
