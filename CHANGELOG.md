@@ -1,3 +1,25 @@
+# [3.0.0](https://github.com/miaoxing/mxjs-a-date-range-picker/compare/v2.2.1...v3.0.0) (2024-05-01)
+
+
+### Features
+
+* 更新 `react-router` 到 v6 ([a6d36a6](https://github.com/miaoxing/mxjs-a-date-range-picker/commit/a6d36a685ccc83b0b60c3ea34131ffece048a8d3))
+
+
+### BREAKING CHANGES
+
+* 更新 `react-router` 到 v6
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-form:** upgrade from `2.2.1` to `3.0.0`
+* **miaoxing:** upgrade from `0.4.13` to `0.4.14`
+* **@mxjs/test:** upgrade from `1.0.11` to `1.1.0`
+
 ## [2.2.1](https://github.com/miaoxing/mxjs-a-date-range-picker/compare/v2.2.0...v2.2.1) (2024-03-31)
 
 
