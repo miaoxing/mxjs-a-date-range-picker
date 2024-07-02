@@ -1,7 +1,7 @@
 {
   "name": "@mxjs/a-date-range-picker",
   "version": "3.0.2",
-  "main": "index.js",
+  "main": "index.jsx",
   "author": "twinh",
   "license": "MIT",
   "engines": {
