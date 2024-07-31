@@ -1,3 +1,22 @@
+## [3.0.3](https://github.com/miaoxing/mxjs-a-date-range-picker/compare/v3.0.2...v3.0.3) (2024-07-31)
+
+
+### Bug Fixes
+
+* 更改入口文件，解决 vite "Failed to resolve entry for package" 问题 ([1ab2bdb](https://github.com/miaoxing/mxjs-a-date-range-picker/commit/1ab2bdbf829206756c566d2d09631305b908e59b))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-form:** upgrade from `3.0.2` to `4.0.0`
+* **miaoxing:** upgrade from `0.4.15` to `0.4.16`
+* **babel-preset-miaoxing:** upgrade from `0.7.0` to `0.8.0`
+* **@miaoxing/dev:** upgrade from `9.1.1` to `9.1.2`
+* **@mxjs/test:** upgrade from `2.0.0` to `2.0.1`
+
 ## [3.0.2](https://github.com/miaoxing/mxjs-a-date-range-picker/compare/v3.0.1...v3.0.2) (2024-06-30)
 
 
