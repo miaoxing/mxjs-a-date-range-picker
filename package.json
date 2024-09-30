@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/a-date-range-picker",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "main": "index.jsx",
   "author": "twinh",
   "license": "MIT",
@@ -15,7 +15,7 @@
     "preset": "jest-preset-miaoxing"
   },
   "dependencies": {
-    "@mxjs/a-form": "^4.1.0",
+    "@mxjs/a-form": "^4.1.1",
     "antd": "~5.19",
     "miaoxing": "^0.4.19",
     "dayjs": "^1.11.7"
