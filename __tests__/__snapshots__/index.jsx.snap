@@ -7,7 +7,7 @@ exports[`date-range-picker custom format 1`] = `
       Object {
         "loading": true,
         "method": "get",
-        "url": "",
+        "url": "defaults",
       },
     ],
     Array [
@@ -49,7 +49,7 @@ exports[`date-range-picker date 1`] = `
       Object {
         "loading": true,
         "method": "get",
-        "url": "",
+        "url": "defaults",
       },
     ],
     Array [
@@ -91,7 +91,7 @@ exports[`date-range-picker empty value 1`] = `
       Object {
         "loading": true,
         "method": "get",
-        "url": "",
+        "url": "defaults",
       },
     ],
     Array [
@@ -133,7 +133,7 @@ exports[`date-range-picker only start date 1`] = `
       Object {
         "loading": true,
         "method": "get",
-        "url": "",
+        "url": "defaults",
       },
     ],
     Array [
@@ -175,7 +175,7 @@ exports[`date-range-picker time 1`] = `
       Object {
         "loading": true,
         "method": "get",
-        "url": "",
+        "url": "defaults",
       },
     ],
     Array [
